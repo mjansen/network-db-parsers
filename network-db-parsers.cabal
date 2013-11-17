@@ -16,7 +16,7 @@ cabal-version:       >=1.10
 
 library
   exposed-modules:     Data.NetworkDB.HostsEntry, Data.NetworkDB.NetgroupEntry
-  -- other-modules:       
+  other-modules:       Data.NetworkDB.Helpers.CommentParser, Data.NetworkDB.Helpers.ByLineParser
   -- other-extensions:    
   build-depends:       base, bytestring, attoparsec
   -- hs-source-dirs:      
